@@ -1,0 +1,47 @@
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  color: #007bff;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.btn-outline-secondary {
+  font-weight: 600;
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
